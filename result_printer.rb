@@ -3,7 +3,6 @@
 # Класс ResultPrinter, печатающий состояние и результаты игры.
 #
 class ResultPrinter
-
   def initialize
     @status_image = []
 
