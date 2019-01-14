@@ -24,11 +24,6 @@ class Game
 
   # Метод, который возвращает массив букв загаданного слова
   def get_letters(slovo)
-    if slovo == nil || slovo == ""
-      puts "Для игры введите загаданное слово в качестве аргумента при запуске программы"
-      exit
-    end
-
     return Unicode::downcase(slovo.encode('UTF-8')).split("")
   end
 
