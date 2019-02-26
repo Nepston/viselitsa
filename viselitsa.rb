@@ -3,11 +3,6 @@
 # Популярная детская игра
 # https://ru.wikipedia.org/wiki/Виселица_(игра)
 #
-require 'unicode'
-
-require_relative 'lib/game'
-require_relative 'lib/result_printer'
-require_relative 'lib/word_reader'
 
 VERSION = 'Игра виселица. Версия 5'
 
